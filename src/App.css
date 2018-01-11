@@ -13,24 +13,21 @@
   font-size: 1.5em;
 }
 
-.app-intro {
-  font-size: large;
-}
-
 .graph > rect:nth-child(even) {
-  fill: #22cccc;
+  fill: #838689;
 }
 
 .graph > rect:nth-child(odd) {
-  fill:#FED96F;
+  fill: #D3E2B6;
 }
 
 .axis path,
 .axis line {
   fill: none;
-    stroke: #000;
-    shape-rendering: crispEdges;
+  stroke: #000;
+  shape-rendering: crispEdges;
 }
+
 
 .x .tick text {
   font-size: 12px;
