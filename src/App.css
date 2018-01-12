@@ -31,7 +31,7 @@
 
 .x .tick text {
   font-size: 12px;
-  transform: translate(-8px, 2px) rotate(-45deg);
+  transform: translate(-8px, 2px) rotate(-50deg);
   text-anchor: end !important;
 }
 
