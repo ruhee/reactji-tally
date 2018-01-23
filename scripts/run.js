@@ -47,7 +47,7 @@ const uniqueSorted = JSON.stringify(unique.sort((a,b) => {
   if (a.value > b.value)
     return 1;
   return 0;
-}).reverse());
+}).reverse().slice(0,30));
 
 fs.writeFileSync('src/tidied.json', uniqueSorted, (err) => {
   if (err) {
