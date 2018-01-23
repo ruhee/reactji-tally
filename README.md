@@ -19,7 +19,4 @@ This project assumes `node 8.0.0` and `npm 5.6.0`.
 * [Generate a legacy token](https://api.slack.com/custom-integrations/legacy-tokens) for the Slack instance you want to run this against.
 * Follow the directions in slack-history-export for setting your token (either as an environment variable or with a flag when you invoke the script).
 * Export your chosen Slack channel with slack-history-export and save it in `scripts/data.json` in this project.
-* Run `npm run graph` in the project. You should see a new json file appear (`src/tidied.json`) and a development server run. If it doesn't pop open a window automatically, navigate to `localhost:3000` in your browser.
-
-TODO:
-requests needs to be installed for python
+* Run `npm run go` in the project. You should see a new json file appear (`src/tidied.json`) and a development server run. If it doesn't pop open a window automatically, navigate to `localhost:3000` in your browser.

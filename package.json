@@ -31,7 +31,6 @@
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",
-    "python-shell": "^0.4.0",
     "raf": "3.4.0",
     "react": "^16.2.0",
     "react-bar-chart": "^0.1.2",
@@ -51,8 +50,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "graph": "node scripts/run.js && node scripts/start.js",
-    "go": "node scripts/run.js"
+    "go": "node scripts/run.js && node scripts/start.js",
+    "data": "node scripts/run.js"
   },
   "jest": {
     "collectCoverageFrom": [
