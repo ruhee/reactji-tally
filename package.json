@@ -37,6 +37,7 @@
     "react-bar-chart": "^0.1.2",
     "react-dev-utils": "^4.2.1",
     "react-dom": "^16.2.0",
+    "slack-history-export": "^1.1.1",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.6.2",
@@ -50,7 +51,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "graph": "node src/run.js && node scripts/start.js"
+    "graph": "node scripts/run.js && node scripts/start.js",
+    "go": "node scripts/run.js"
   },
   "jest": {
     "collectCoverageFrom": [
