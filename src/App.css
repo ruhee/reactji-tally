@@ -14,11 +14,11 @@
 }
 
 .graph > rect:nth-child(even) {
-  fill: #838689;
+  fill: #e3e3e3;
 }
 
 .graph > rect:nth-child(odd) {
-  fill: #D3E2B6;
+  fill: #5bb16e;
 }
 
 .axis path,
