@@ -20,7 +20,10 @@ const unique = [];
 reactions.forEach(item => {
   item.forEach(reaction => {
     // TWG has a lot of fingerguns emojis ... they're all listed as `fingerguns-{direction-modifier}`
-    const text = reaction.name.indexOf('fingerguns') !== -1 ? reaction.name.split('-')[0] : reaction.name.split('::')[0];
+    let text = reaction.name.indexOf('fingerguns') !== -1 ? reaction.name.split('-')[0] : reaction.name.split('::')[0];
+    if (text === 'hearts') {
+      text = 'heart';
+    }
     const value = reaction.count;
     cleaned.push({ text, value });
   });
